@@ -23,7 +23,7 @@ class seat{
 	Arguments: none
 	Return: value of $taken
 	*/
-	public function getTaken() {
+	 function getTaken() {
 		return $taken;
 	}
 	
@@ -32,7 +32,7 @@ class seat{
 	Arguments: boolean values
 	Return: none
 	*/
-	public function setTaken($taken) {
+	 function setTaken($taken) {
 		$this->taken = $taken;
 	}
 	
@@ -41,7 +41,7 @@ class seat{
 	Arguments: none
 	Return: int $dirty
 	*/
-	public function getDirty() {
+	 function getDirty() {
 		return $dirty;
 	}
 	
@@ -50,7 +50,7 @@ class seat{
 	Arguments: bool $dirty
 	Return: none
 	*/
-	public function setDirty($dirty) {
+	 function setDirty($dirty) {
 		$this->dirty = $dirty;
 	}
 	/*
@@ -58,7 +58,7 @@ class seat{
 	Arguments: bool $chair
 	Return: none
 	*/
-	public function setChair($chair) {
+	 function setChair($chair) {
 		$this->chair = $chair;
 	}
 	/*
@@ -66,7 +66,7 @@ class seat{
 	Arguments: none
 	Return: bool $chair
 	*/
-	public function getChair() {
+	 function getChair() {
 		return $chair;
 	}
 	/*
@@ -74,7 +74,7 @@ class seat{
 	Arguments: int $location
 	Return: none
 	*/
-	private function setLocation($location) {
+	 function setLocation($location) {
 		$this->location = $location;
 	}
 	/*
@@ -82,7 +82,7 @@ class seat{
 	Arguments: none
 	Return: int $location
 	*/
-	private function getLocation() {
+	 function getLocation() {
 		return $location;
 	}
 	/*
@@ -90,7 +90,7 @@ class seat{
 	Arguments: bool $occupant
 	Return: none
 	*/
-	private function setOccupant($occupant){
+	 function setOccupant($occupant){
 		$this->occupant = $occupant;
 
 	}
@@ -99,7 +99,7 @@ class seat{
 	Arguments: none
 	Return: bool $occupant
 	*/
-	private function getOccupant(){
+	 function getOccupant(){
 		return $occupant;
 	}
 

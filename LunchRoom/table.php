@@ -8,7 +8,8 @@ class table{
 	private $length;
 	private $width;
 	private $height;
-	
+
+	// table color
 	private $color;
 	
 	//Getters and Setters
